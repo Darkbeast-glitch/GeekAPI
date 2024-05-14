@@ -1,8 +1,8 @@
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
-from database.session import SessionLocal
-from schemas.email import EmailCreate, Email
-from models.email import Email as EmailModel
+from app.database.session import SessionLocal
+from app.schemas.email import EmailCreate, Email
+from app.models.email import Email as EmailModel
 from typing import List
 
 app = FastAPI()
