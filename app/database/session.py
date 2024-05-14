@@ -1,9 +1,8 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-from decouple import config
 
-SQLALCHEMY_DATABASE_URL = config("DATABASE_URL_CONNECT")
+SQLALCHEMY_DATABASE_URL = "postgresql://postgres:#3Ewoksss@localhost:5432/geekapi"
 
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
