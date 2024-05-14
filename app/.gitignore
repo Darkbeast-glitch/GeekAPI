@@ -1,0 +1,39 @@
+# Python
+*.pyc
+__pycache__
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__
+local_settings.py
+db.sqlite3
+media
+
+# Development
+.env
+env/
+.venv
+*.sqlite3
+/db.sqlite3
+/db.sqlite3-journal
+
+# IDE - VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
